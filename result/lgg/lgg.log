@@ -1,0 +1,56 @@
+prediction for cna data: 
+              precision    recall  f1-score   support
+
+           0     0.9730    0.9730    0.9730        37
+           1     0.9412    0.9412    0.9412        51
+           2     0.8889    0.8889    0.8889        18
+
+    accuracy                         0.9434       106
+   macro avg     0.9343    0.9343    0.9343       106
+weighted avg     0.9434    0.9434    0.9434       106
+
+prediction for met data: 
+              precision    recall  f1-score   support
+
+           0     0.9487    1.0000    0.9737        37
+           1     1.0000    0.9412    0.9697        51
+           2     0.9474    1.0000    0.9730        18
+
+    accuracy                         0.9717       106
+   macro avg     0.9654    0.9804    0.9721       106
+weighted avg     0.9732    0.9717    0.9716       106
+
+prediction for mrna data: 
+              precision    recall  f1-score   support
+
+           0     0.9737    1.0000    0.9867        37
+           1     0.9800    0.9608    0.9703        51
+           2     0.9444    0.9444    0.9444        18
+
+    accuracy                         0.9717       106
+   macro avg     0.9660    0.9684    0.9671       106
+weighted avg     0.9718    0.9717    0.9716       106
+
+prediction for rppa data: 
+              precision    recall  f1-score   support
+
+           0     0.7500    0.8919    0.8148        37
+           1     0.9189    0.6667    0.7727        51
+           2     0.6800    0.9444    0.7907        18
+
+    accuracy                         0.7925       106
+   macro avg     0.7830    0.8343    0.7927       106
+weighted avg     0.8194    0.7925    0.7905       106
+
+prediction for all the omics data: 
+              precision    recall  f1-score   support
+
+           0     0.9737    1.0000    0.9867        37
+           1     1.0000    0.9804    0.9901        51
+           2     1.0000    1.0000    1.0000        18
+
+    accuracy                         0.9906       106
+   macro avg     0.9912    0.9935    0.9923       106
+weighted avg     0.9908    0.9906    0.9906       106
+
+Training time : 14.675851106643677 seconds
