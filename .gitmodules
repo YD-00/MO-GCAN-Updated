@@ -1,0 +1,9 @@
+[submodule "comparison/MOGONET"]
+	path = comparison/MOGONET
+	url = https://github.com/YD-00/MOGONET.git
+[submodule "comparison/MoGCN"]
+	path = comparison/MoGCN
+	url = https://github.com/YD-00/MoGCN.git
+[submodule "comparison/SUPREME"]
+	path = comparison/SUPREME
+	url = https://github.com/YD-00/SUPREME.git
