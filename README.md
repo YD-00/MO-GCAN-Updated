@@ -13,10 +13,26 @@ MO-GCAN is a framework that leverages supervised feature learning and classifica
 
 2. to run the main.py: 
 for lgg cancer: python3 main.py<br>
-for ucec cancer: python3 main.py -t ucec 
-for stad cancer: python3 main.py -t stad 
-for sarc cancer: python3 main.py -t sarc 
-for coadread cancer: python3 main.py -t coadread 
-for cesc cancer: python3 main.py -t cesc 
-for hnsc cancer: python3 main.py -t hnsc 
-for brca cancer: python3 main.py -t brca 
+for ucec cancer: python3 main.py -t ucec <br>
+for stad cancer: python3 main.py -t stad <br>
+for sarc cancer: python3 main.py -t sarc <br>
+for coadread cancer: python3 main.py -t coadread<br> 
+for cesc cancer: python3 main.py -t cesc <br>
+for hnsc cancer: python3 main.py -t hnsc <br>
+for brca cancer: python3 main.py -t brca <br>
+
+## Versions:
+python: 3.9.6 <br>
+scikit-learn:1.5.2 <br>
+pandas:1.5.3 <br>
+numpy:1.26.4 <br>
+torch:2.4.1 <br>
+snfpy: 0.2.2 <br>
+matplotlib:3.9.2 <br>
+seaborn:0.13.2 <br>
+pip3: 24.2
+
+## Results
+The result folder is organized by cancer type, with each subfolder corresponding to a specific cancer. Inside each subfolder, a cancer_type.log file captures the output generated during the execution of commands for that particular dataset, including single-omics, all-omics, and selected omics predictions. For the purpose of multi-omics prediction, we utilized the results from "selected omics", which represent the final output used in our analyses.
+
+
